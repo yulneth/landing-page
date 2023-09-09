@@ -3,6 +3,8 @@ img{
     height: 300px;
 }
 .upper-part{
+    margin: 0;
+    border: 0;
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
@@ -16,12 +18,14 @@ img{
 
 }
 li {
+    margin: 0;
+    border: 0;
     list-style-type: none;
 }
 .links{
     display: flex;
     justify-content: space-between;
-    flex:none;
+
 }
 .left-side{
     display: flex;
@@ -111,14 +115,21 @@ button{
 .third-part{
     display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
 }
 .container-third-part{
+    margin: 0;
+    border: 0;
     display: flex;
     font-style: italic;
     color:#1F2937;
     font-size: 36px;
-    padding: 128px;
+    padding: 96px;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+
 }
 .strongest-avenger{
     display: flex;
@@ -126,4 +137,34 @@ button{
     font-weight: bold;
     padding: 64px;
     font-style: normal;
+}
+.footer{
+    margin: 72px;
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    margin: 0;
+    border: 0;
+    display: flex;    
+    background-color: #3882F6;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding:32px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text.call{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+.footer-text{
+    font-size: 16px;
+    color: #E5E7EB;
 }
