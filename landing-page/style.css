@@ -1,19 +1,14 @@
-
 img{
-    display: flex;
     width: 500px;
     height: 300px;
 }
 .upper-part{
-    margin: 0;
-    border: 0;
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
     padding-left: 64px;
     padding-right: 64px;
     padding-bottom: 64px;
-    flex:1;
 }
 .right-side{
     display: flex;
@@ -60,11 +55,13 @@ a{
     color: #F9FAF8;
 }
 button{
-    width: 200px;
-    height: 50px;
-    background-color: blue;
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
     border-radius: 10%;
     color:#F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
 }
 .sign-up{
 
@@ -76,4 +73,36 @@ button{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+}
+
+
+/*second part*/
+.second-part{
+    padding: 32px;
+}
+.container-second-part-images{
+    display: flex;
+    gap:32px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-second-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.images-second-part{
+    max-width: 300px;
+    max-height: 300px;
+}
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
