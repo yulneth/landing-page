@@ -106,3 +106,24 @@ button{
     align-items: center;
     justify-content: center;
 }
+
+/* Third part*/
+.third-part{
+    display: flex;
+    background-color: #E5E7EB;
+}
+.container-third-part{
+    display: flex;
+    font-style: italic;
+    color:#1F2937;
+    font-size: 36px;
+    padding: 128px;
+    flex-direction: column;
+}
+.strongest-avenger{
+    display: flex;
+    justify-content:right;
+    font-weight: bold;
+    padding: 64px;
+    font-style: normal;
+}
